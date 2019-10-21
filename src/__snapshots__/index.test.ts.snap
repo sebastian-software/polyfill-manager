@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`logger 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
+      "Execute",
+      "test polyfill",
+    ],
+    Array [
+      "test polyfill",
+      "successfully loaded",
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
+`;
+
+exports[`polyfill execution order 1`] = `
+Array [
+  1,
+  2,
+  3,
+]
+`;
