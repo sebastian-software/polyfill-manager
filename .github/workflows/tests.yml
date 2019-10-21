@@ -2,13 +2,20 @@ name: tests workflow
 on: [push]
 
 jobs:
-  build:
-    name: test
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: "actions/checkout@v1"
       - uses: "actions/setup-node@v1"
         with:
-          node-version: 10.x
+          node-version: 12.x
       - run: npm install
       - run: npm test
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: "actions/checkout@v1"
+      - uses: "actions/setup-node@v1"
+        with:
+          node-version: 12.x
+      - run: npm audit
