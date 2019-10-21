@@ -12,6 +12,10 @@
     "prepare": "rimraf lib && preppy",
     "lint": "eslint src/**/*.ts"
   },
+  "files": [
+    "README.md",
+    "lib/"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
