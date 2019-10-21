@@ -2,7 +2,7 @@
 
 **Manage parallel loading and order of polyfills.**
 
-<br/>[![Sponsored by][sponsor-img]][sponsor] [![Version][npm-version-img]][npm] [![Downloads][npm-downloads-img]][npm]<br/>[![Dependencies][deps-img]][deps] [![Build][github-workflow-img]][github-workflow]
+<br/>[![Sponsored by][sponsor-img]][sponsor] [![Version][npm-version-img]][npm] [![Downloads][npm-downloads-img]][npm]<br/>[![Dependencies][deps-img]][deps] ![Build][github-workflow-img]
 
 [sponsor]: https://www.sebastian-software.de
 [deps]: https://david-dm.org/sebastian-software/polyfill-manager
